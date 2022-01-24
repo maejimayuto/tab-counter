@@ -1,0 +1,1 @@
+# Chrome で開いたタブの数を記憶してくれる extension

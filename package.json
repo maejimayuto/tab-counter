@@ -1,0 +1,25 @@
+{
+  "name": "tab-counter",
+  "version": "1.0.0",
+  "description": "Count the cumulative number of tabs opened",
+  "main": "index.js",
+  "repository": "https://github.com/maejimayuto/tab-counter",
+  "author": "maejimayuto",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "next": "^12.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "export": "next build && next export -o extensions/dist"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "typescript": "^4.5.5"
+  }
+}
